@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+attendance.db
+face_model.yml
+labels.npy
+passcode.txt
+.env

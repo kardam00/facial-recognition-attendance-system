@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">attendance</string>
+    <string name="enter_name_id">Enter both name and ID</string>
+    <string name="person_exists">❗ Person already exists. Check ID or remove first.</string>
+    <string name="error_message">❌ Error: %1$s</string>
+    <string name="capture_progress">Captured %1$d/5</string>
+    <string name="failed_to_add">❌ Failed to add person: %1$s</string>
+    <string name="no_message">No message</string>
+    <string name="failed_message">❌ Failed: %1$s</string>
+    <string name="success_message">✅ %1$s</string>
+    <string name="default_no_message">No message</string>
+    <string name="camera_permission_denied">Camera permission denied!</string>
+    <string name="failed_capture">❗ Failed to capture image.</string>
+    <string name="api_failed_message">❌ Failed: %1$s</string>
+    <string name="entry_already_marked">⚠️ Entry already marked for %1$s</string>
+    <string name="exit_already_marked">⚠️ Exit already marked for %1$s</string>
+    <string name="attendance_marked">✅ %1$s marked for %2$s\n🕒 %3$s</string>
+    <string name="face_not_recognized">❌ Face not recognized</string>
+    <string name="remove_failed">❌ Failed: %1$s</string>
+    <string name="remove_message">📢 %1$s</string>
+    <string name="hint_full_name">Full Name</string>
+    <string name="hint_employee_id">Employee ID</string>
+    <string name="btn_capture_faces">📸 Capture Faces</string>
+
+</resources>

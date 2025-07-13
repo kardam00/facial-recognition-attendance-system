@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="24dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center_vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editOldPasscode"
+            android:hint="Old Passcode"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingEnd="48dp" />
+
+        <ImageButton
+            android:id="@+id/toggleOldPass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="?android:selectableItemBackgroundBorderless"
+            android:contentDescription="Toggle password visibility"
+            android:src="@drawable/ic_eye" />
+    </RelativeLayout>
+
+    <!-- New Passcode Field with Toggle -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp">
+
+        <EditText
+            android:id="@+id/editNewPasscode"
+            android:hint="New Passcode"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingEnd="48dp" />
+
+        <ImageButton
+            android:id="@+id/toggleNewPass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="?android:selectableItemBackgroundBorderless"
+            android:contentDescription="Toggle password visibility"
+            android:src="@drawable/ic_eye" />
+    </RelativeLayout>
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/btnSubmitPasscode"
+        android:text="🔑 Change Passcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/textStatus"
+        android:text=""
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

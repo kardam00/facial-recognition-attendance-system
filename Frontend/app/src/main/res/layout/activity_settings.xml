@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editBaseUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Flask base URL"
+        android:inputType="textUri" />
+
+    <Button
+        android:id="@+id/btnSaveUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save URL"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>
